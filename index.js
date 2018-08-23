@@ -15,7 +15,8 @@ function currentLine(line) {
     var string = 'The line is currently:';
     var customer = []
     for (var i = 0; i < line.length;)
-    {return customer.push(`${string} ${i + 1}. ${line[i]}`)
+    {customer.push(`${string} ${i + 1}. ${line[i]}`)
+    return customer
   }
 
 }
