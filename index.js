@@ -13,7 +13,7 @@ function currentLine(line) {
     return 'The line is currently empty.'
   } else {
     var string = 'The line is currently: ';
-    var customer = [];
+    var customer = [] ;
     for (var i = 0; i < line.length; i++) {
       customer.push(`${i + 1}. ${line[i]}`)
     } return `${string}${customer}`
